@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>龙之谷</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="//code.jquery.com/jquery-1.9.1.min.js"></script>
+</head>
+<body>
+
+<!--导航-->
+<div class="nav" id="nav">
+  <ul class="main-nav" id="main-nav">
+    <li><a href="#"><strong>首页</strong><i>index</i></a></li>
+    <li><a href="#"><strong>游戏资料</strong><i>game data</i></a></li>
+    <li><a href="#"><strong>玩家互动</strong><i>interaction</i></a></li>
+    <li><a href="#"><strong>购物充值</strong><i>payment</i></a></li>
+    <li><a href="#"><strong>账户管理</strong><i>user management</i></a></li>
+    <li><a href="#"><strong>龙之谷俱乐部</strong><i>user club</i></a></li>
+  </ul>
+
+  <div class="wrap-nav" id="wrap-nav">
+    <div class="content-nav" id="content-nav">
+      <dl>
+        <dd><a href="#"></a></dd>
+      </dl>
+      <dl>
+        <dd><a href="#">游戏下载</a></dd>
+        <dd><a href="#">新手指南</a></dd>
+        <dd><a href="#">职业介绍</a></dd>
+        <dd><a href="#">公示中心</a></dd>
+        <dd><a href="#">版本中心</a></dd>
+        <dd><a href="#">装备指南</a></dd>
+      </dl>
+      <dl>
+        <dd><a href="">玩家视频</a></dd>
+        <dd><a href="">壁纸专区</a></dd>
+        <dd><a href="">新浪微博</a></dd>
+        <dd><a href="">官方主播</a></dd>
+        <dd><a href="">官方论坛</a></dd>
+        <dd><a href="">周边论坛</a></dd>
+      </dl>
+      <dl>
+        <dd><a href="">买卡</a></dd>
+        <dd><a href="">充值</a></dd>
+        <dd><a href="">帮助</a></dd>
+      </dl>
+      <dl>
+        <dd><a href="">账号注册</a></dd>
+        <dd><a href="">彩虹客服</a></dd>
+        <dd><a href="">心享服务</a></dd>
+        <dd><a href="">账号安全</a></dd>
+        <dd><a href="">密码取回</a></dd>
+        <dd><a href="">封停查询</a></dd>
+        <dd><a href="">用户协议</a></dd>
+      </dl>
+    </div>
+  </div>
+</div>
+
+<!--内容-->
+<div class="wrap relative">
+  <div class="wrapIn">
+    <div class="header">
+      <a href="" class="logo">
+        <img src="https://static.web.sdo.com/dn/pic/dn/web10/logo.png?a2" width="156" height="86">
+      </a>
+      <p>游戏适合12岁以上用户</p>
+      <a href="#" class="btn-act" title="活动中心"></a>
+    </div>
+    <div class="main">
+
+      <div class="column mb15 main-top">
+        <!--下载 注册 指南 礼包-->
+        <div class="btns">
+          <a href="" class="btn-down" title="游戏下载">
+            <div class="startBtn">
+              <video src="https://static.web.sdo.com/dn/pic/dn/web10/index/startBtn.mp4"></video>
+              <img class="light" src="https://static.web.sdo.com/dn/pic/dn/web10/index/startBtn_light.png" alt="">
+              <img class="text" src="https://static.web.sdo.com/dn/pic/dn/web10/index/startBtn_text.png" alt="">
+            </div>
+          </a>
+
+          <a href="" class="btn-reg fl">
+            <em></em>
+            <span>注册账号</span>
+          </a>
+          <a href="" class="btn-guide fr">
+            <em></em>
+            <span>新手指南</span>
+          </a>
+          <a href="" class="btn-gift">
+            <em></em>
+            <span>新手礼包</span>
+          </a>
+        </div>
+
+        <!--轮播-->
+        <div class="slides">
+          <div id="slides">
+            <ul class="img-ct">
+              <li><a href="#"><img src="http://fu5.sdo.com/10036/201908/15663921675606.jpg" alt=""></a></li>
+              <li><a href="#"><img src="http://fu5.sdo.com/10036/201908/15664535789206.jpg" alt=""></a></li>
+              <li><a href="#"><img src="http://fu5.sdo.com/10036/201908/15663923887617.jpg" alt=""></a></li>
+              <li><a href="#"><img src="http://fu5.sdo.com/10036/201907/15637692314859.jpg" alt=""></a></li>
+              <li><a href="#"><img src="http://fu5.sdo.com/10036/201907/15645691079697.jpg" alt=""></a></li>
+              <li><a href="#"><img src="http://fu5.sdo.com/10036/201907/15635311571882.jpg" alt=""></a></li>
+            </ul>
+          </div>
+          <a href="#" class="pre arrow"><</a>
+          <a href="#" class="next arrow">></a>
+          <div class="slide-navi">
+            <span class="active">1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+          </div>
+        </div>
+        <!--新闻-->
+        <div class="news relative">
+          <div class="grid-top">
+            <a href="" class="more">更多</a>
+            <div id="tab-line"></div>
+            <ul class="clearfix tab">
+              <li class="active">最新</li>
+              <li>活动</li>
+              <li>公告</li>
+              <li>焦点</li>
+            </ul>
+          </div>
+
+          <div class="new-list">
+            <div id="dmNews-list">
+              <ul>
+                <li class="hot"><a href="#">周末活动 | 坐骑礼包/潘多拉/园龙鳞片周末大放送</a><span>08-28</span></li>
+                <li class="hot"><a href="#">暗黑系萌骑士外传福利，抢先预约！free</a><span>08-21</span></li>
+                <li class="hot"><a href="#">幸运宾果每天翻翻乐，本职女神装备轻松换粗来</a><span>08-26</span></li>
+                <li><a href="#">龙之谷找人啦！征超有爱谷迷</a><span>08-28</span></li>
+                <li><a href="#">违规账号处罚公告(08/30)封停1591个账号</a><span>08-30</span></li>
+                <li><a href="#">7月龙之谷官方主播活动 时长人气排名公告</a><span>08-29</span></li>
+                <li><a href="#">大神进阶之路 | 夏日新版本信息一览</a><span>08-29</span></li>
+              </ul>
+              <ul>
+                <li class="hot"><a href="#">周末活动 | 坐骑礼包/潘多拉/园龙鳞片周末大放送</a><span>08-28</span></li>
+                <li class="hot"><a href="#">暗黑系萌骑士外传福利，抢先预约！free</a><span>08-21</span></li>
+                <li class="hot"><a href="#">幸运宾果每天翻翻乐，本职女神装备轻松换粗来</a><span>08-26</span></li>
+                <li class="hot"><a href="#">迎XIN线上活动！ 预约新职送好礼</a><span>08-21</span></li>
+                <li class="hot"><a href="#">周末活动 | 掉率UP！ 材料超嗨大放送</a><span></span></li>
+                <li><a href="#">今年七夕不虐狗，咱们来比惨！ 送卢比纳特,RUA</a><span>08-07</span></li>
+                <li><a href="#">七夕活动福利多！ 狗粮正能量 POWER ON</a><span>08-06</span></li>
+              </ul>
+              <ul>
+                <li><a href="#">违规账号处罚公告(08/30)封停1591个账号</a><span>08-30</span></li>
+                <li><a href="#">7月龙之谷官方主播活动 时长人气排名公告</a><span>08-29</span></li>
+                <li><a href="#">全区全服 维护完成 更新至Ver.376</a><span>08-29</span></li>
+                <li><a href="#">新职业预约宝箱 将在本周四完成全区发放</a><span>08-27</span></li>
+                <li><a href="#">华东电信二区 维护完成 更新至Ver.376</a><span>08-27</span></li>
+                <li><a href="#">九周年誓约特别活动 全额返点名单</a><span>08-27</span></li>
+                <li><a href="#">违规账号处罚公告（08/27）封停843个账号</a><span>08-27</span></li>
+              </ul>
+              <ul>
+                <li><a href="#">龙之谷招人啦！征超有爱谷迷！</a><span>08-28</span></li>
+                <li><a href="#">大神进阶之路丨夏日新版本信息一览</a><span>08-29</span></li>
+                <li><a href="#">小龙哥课堂丨“幸运宾果”免费翻牌拿大奖</a><span>08-27</span></li>
+                <li><a href="#">直达95级！《龙之谷》8月新版本，新手大福利</a><span>08-27</span></li>
+                <li><a href="#">今日版本更新！新职业预热活动送N多好礼</a><span>08-22</span></li>
+                <li><a href="#">大神进阶之路丨加点/手法N合1！机械大师攻略</a><span>08-21</span></li>
+                <li class="hot">欢迎登机！商城新品上架，飞行员时装酷到飞起<a href="#"></a><span>08-21</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="column mb40">
+        <div class="entry">
+          <div class="btns clearfix">
+            <a href="" class="pay">
+              <em></em>
+              <span>充值</span>
+            </a>
+            <a href="" class="safe">
+              <em></em>
+              <span>安全</span>
+            </a>
+            <a href="" class="vip">
+              <em></em>
+              <span>服务号</span>
+            </a>
+            <a href="" class="prize">
+              <em></em>
+              <span>领奖</span>
+            </a>
+          </div>
+          <ul class="clearfix">
+            <li class="wx">
+              <a href="">
+                <i class="icon"></i>
+                <span class="line">|</span>
+                <p class="name">官方微信</p>
+                <img class="qr" src="https://static.web.sdo.com/dn/pic/dn/web9/20150215/wx_qr.png" alt="">
+              </a>
+            </li>
+            <li class="wb">
+              <a href="">
+                <i class="icon"></i>
+                <span class="line">|</span>
+                <p class="name">官方微博</p>
+                <img class="qr" src="https://static.web.sdo.com/dn/pic/dn/web9/20150215/wb_qr.png" alt="">
+              </a>
+            </li>
+            <li class="dy">
+              <a href="">
+                <i class="icon"></i>
+                <p class="name">抖音扫一扫</p>
+                <img class="qr" src="https://static.web.sdo.com/dn/pic/dn_19act/1903letter/douyin_qr.png" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="acts">
+          <ul>
+            <li><a href=""><img src="http://fu5.sdo.com/10036/201908/15663933839361.jpg" alt=""></a></li>
+            <li><a href=""><img src="http://fu5.sdo.com/10036/201908/15663933981608.jpg" alt=""></a></li>
+            <li><a href=""><img src="http://fu5.sdo.com/10036/201908/15663935069547.jpg" alt=""></a></li>
+            <li><a href=""><img src="http://fu5.sdo.com/10036/201905/15571403805336.jpg" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="column mb40">
+        <div class="brand">
+
+          <div class="grid-top">
+            <h1 class="tit">
+              <i class="icon"></i>
+              <strong>品牌中心</strong>
+              <i class="en">ip center</i>
+            </h1>
+          </div>
+
+          <div class="con">
+            <ul>
+
+              <li>
+                <a href="">
+                  <img class="pic" src="https://static.web.sdo.com/dn/pic/dn/web10/MALL.jpg" alt="">
+                  <div class="name">
+                    <img src="https://static.web.sdo.com/dn/pic/dn/web10/1129zb.png" alt="">
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="">
+                  <img class="pic" src="https://static.web.sdo.com/dn/pic/dn/web10/brand_2.jpg?a1" alt="">
+                  <div class="name">
+                    <img src="https://static.web.sdo.com/dn/pic/dn/web10/brand_t6.png" alt="">
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a href="">
+                  <img class="pic" src="https://static.web.sdo.com/dn/pic/dn/web10/brand_5.jpg" alt="">
+                  <div class="name">
+                    <img src="https://static.web.sdo.com/dn/pic/dn/web10/brand_t5.png" alt="">
+                  </div>
+                </a>
+              </li>
+
+            </ul>
+          </div>
+
+        </div>
+
+        <div class="history">
+          <a class="inlet_hlg" href="">
+            <img class="absolute hlg_c1 " src="https://static.web.sdo.com/dn/pic/dn/web10/pic_hlg_slogan1.png" alt="">
+            <img class="absolute hlg_c2 " src="https://static.web.sdo.com/dn/pic/dn/web10/pic_hlg_slogan2.png" alt="">
+          </a>
+        </div>
+      </div>
+
+      <div class="column mb40">
+
+        <div class="service">
+          <div class="grid-top">
+            <h1 class="tit">
+              <strong>彩虹客服</strong>
+              <i class="en">service</i>
+            </h1>
+          </div>
+
+          <div class="con">
+            遇到问题了？点我去：<a href=""><strong>自助提交</strong></a>
+            <br>
+            彩虹客服：<a class="purple" href=""><strong>手机版直达</strong></a>
+            <br>
+            视频接待入口：<a class="purple" href=""><strong>直接进入</strong></a>
+            <br>
+            彩虹问答：<a class="purple" href=""><strong>点击进入</strong></a>
+            <br>
+            <p>客服热线：95105222-8135</p>
+            <p>未开通95地区或海外用户请拨打</p>
+            <p>+86-21-50504728-8135</p>
+          </div>
+        </div>
+
+        <div class="media">
+          <div class="grid-top">
+            <h1 class="tit">
+              <i class="icon"></i>
+              <strong>媒体专区</strong>
+              <i class="en">media</i>
+            </h1>
+            <a class="more" href="">更多</a>
+          </div>
+
+          <div>
+            <ul class="clearfix lb">
+              <li class="fl"><a href=""><img src="http://fu5.sdo.com/10036/201605/14629647237521.jpg" alt=""></a></li>
+              <li class="fr"><a href=""><img src="http://fu5.sdo.com/10036/201711/15095139718152.jpg" alt=""></a></li>
+            </ul>
+          </div>
+
+          <div class="con">
+            <a href="">特玩新手礼包</a>
+            |
+            <a href="">叶子猪新手礼包</a>
+            <br>
+            <a href="">新浪新手卡</a>
+          </div>
+
+        </div>
+
+        <div class="business">
+          <a href=""><img src="https://static.web.sdo.com/dn/pic/dn/web10/mh.jpg" alt=""></a>
+        </div>
+
+        <div class="strategy">
+
+          <div class="grid-top">
+            <h1 class="tit">
+              <i class="icon"></i>
+              <strong>同人相关</strong>
+              <i class="en">DOUJIN</i>
+            </h1>
+            <a class="more" href="">更多</a>
+          </div>
+
+          <div class="new-list">
+            <ul class="clearfix">
+              <li><a href=""><span>8-29</span>
+                【B站】模型与副本的重复利用之道 By：卢诺米阿...</a></li>
+              <li><a href=""><span>8-29</span>
+                【B站】风行者三种手法示范 By：欧尼酱leo</a></li>
+              <li><a href=""><span>8-29</span>
+                【B站】周年庆回归新人怎么做3 By：巴格伊拉</a></li>
+              <li><a href=""><span>8-29</span>
+                【B站】龙之谷在画质上的那些努力II By：卢诺米...</a></li>
+              <li><a href=""><span>8-29</span>
+                【B站】新版本介绍及搬砖的建议 By：慕容程远</a></li>
+              <li><a href=""><span>8-29</span>
+                【B站】回归出妖精币，激动甚至喊出…By：爆肝...</a></li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="column mb50">
+
+        <div class="fans">
+          <div class="grid-top">
+            <h1 class="tit">
+              <i class="icon"></i>
+              <strong>谷迷天地</strong>
+            </h1>
+          </div>
+
+          <div class="con">
+            <ul>
+              <li><i></i><a href="">音乐相关</a></li>
+              <li><i></i><a href="">玩家画廊</a></li>
+              <li><i></i><a href="">视频集锦</a></li>
+              <li><a href="">精美壁纸</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="lab js_boxS">
+
+          <div class="grid-top">
+            <h1 class="tit">
+              <i class="icon"></i>
+              <strong>全职业一览</strong>
+              <i class="en">JOB SHOW</i>
+            </h1>
+
+            <div class="navi">
+              <span class="p"></span>
+              <span class="n"></span>
+            </div>
+          </div>
+
+          <div class="con overf">
+            <ul id="lab-list" class="clearfix">
+              <li>
+                <a href="">
+                  <img src="https://static.web.sdo.com/dn/pic/dn/web10/zy1-1.jpg" alt="">
+                  <p class="p2" style="background-image: url('https://static.web.sdo.com/dn/pic/dn/web10/zy1-2.jpg');"></p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="https://static.web.sdo.com/dn/pic/dn/web10/zy2-1.jpg" alt="">
+                  <p class="p2" style="background-image: url('https://static.web.sdo.com/dn/pic/dn/web10/zy2-2.jpg');"></p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="https://static.web.sdo.com/dn/pic/dn/web10/zy3-1.jpg" alt="">
+                  <p class="p2" style="background-image: url('https://static.web.sdo.com/dn/pic/dn/web10/zy3-2.jpg');"></p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="https://static.web.sdo.com/dn/pic/dn/web10/zy4-1.jpg" alt="">
+                  <p class="p2" style="background-image: url('https://static.web.sdo.com/dn/pic/dn/web10/zy4-2.jpg');"></p>
+                </a>
+              </li>
+              <!-- -->
+              <li>
+                <a href="">
+                  <img src="https://static.web.sdo.com/dn/pic/dn/web10/zy5-1.jpg" alt="">
+                  <p class="p2" style="background-image: url('https://static.web.sdo.com/dn/pic/dn/web10/zy5-2.jpg');"></p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="https://static.web.sdo.com/dn/pic/dn/web10/zy6-1.jpg" alt="">
+                  <p class="p2" style="background-image: url('https://static.web.sdo.com/dn/pic/dn/web10/zy6-2.jpg');"></p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="https://static.web.sdo.com/dn/pic/dn/web10/zy7-1.jpg" alt="">
+                  <p class="p2" style="background-image: url('https://static.web.sdo.com/dn/pic/dn/web10/zy7-2.jpg');"></p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="https://static.web.sdo.com/dn/pic/dn/web10/zy8-1.jpg" alt="">
+                  <p class="p2" style="background-image: url('https://static.web.sdo.com/dn/pic/dn/web10/zy7-2.jpg');"></p>
+                </a>
+              </li>
+              <!-- -->
+              <li>
+                <a href="">
+                  <img src="https://static.web.sdo.com/dn/pic/dn/web10/zy9-1.jpg" alt="">
+                  <p class="p2" style="background-image: url('https://static.web.sdo.com/dn/pic/dn/web10/zy9-2.jpg');"></p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="https://static.web.sdo.com/dn/pic/dn/web10/zy10-1.jpg" alt="">
+                  <p class="p2" style="background-image: url('https://static.web.sdo.com/dn/pic/dn/web10/zy10-2.jpg');"></p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="https://static.web.sdo.com/dn/pic/dn/web10/zy13-1.jpg" alt="">
+                  <p class="p2" style="background-image: url('https://static.web.sdo.com/dn/pic/dn/web10/zy13-2.jpg');"></p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="https://static.web.sdo.com/dn/pic/dn/web10/zy11-1.jpg" alt="">
+                  <p class="p2" style="background-image: url('https://static.web.sdo.com/dn/pic/dn/web10/zy13-2.jpg');"></p>
+                </a>
+              </li>
+              <!-- -->
+              <li>
+                <a href="">
+                  <img src="https://static.web.sdo.com/dn/pic/dn/web10/zy12-1.jpg" alt="">
+                  <p class="p2" style="background-image: url('https://static.web.sdo.com/dn/pic/dn/web10/zy12-2.jpg');"></p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="https://static.web.sdo.com/dn/pic/dn/web10/jjs1.jpg" alt="">
+                  <p class="p2" style="background-image: url('https://static.web.sdo.com/dn/pic/dn/web10/jjs2.jpg');"></p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="https://static.web.sdo.com/dn/pic/dn/web10/50-1.jpg" alt="">
+                  <p class="p2" style="background-image: url('https://static.web.sdo.com/dn/pic/dn/web10/50-2.jpg');"></p>
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="https://static.web.sdo.com/dn/pic/dn/web10/shura1.jpg" alt="">
+                  <p class="p2" style="background-image: url('https://static.web.sdo.com/dn/pic/dn/web10/shura2.jpg');"></p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="column mb50 notice">
+        
+        <dl>
+          <dt>健康游戏忠告</dt>
+          <dd>
+            <p>抵制不良游戏 拒绝盗版游戏 注意自我保护 谨防上当受骗</p>
+            <p>适度游戏益脑 沉迷游戏伤身 合理安排时间 享受健康生活</p>
+          </dd>
+        </dl>
+        
+        <ul>
+          <li><a href="">防沉迷使用指南</a></li>
+          <li><a href="">防沉迷信息补填</a></li>
+          <li><a href="">实名信息补填入口</a></li>
+          <li><a href="">家长监护工程</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!--底部-->
+<div id="footer">
+  <div id="copy_right">
+
+    <div class="copy_right_logo">
+      <a href=""></a>
+    </div>
+
+    <div class="copy_right_con">
+      <p>新出审字[2010]104号 文网进字[2009]011号</p>
+      <p>
+        <a href="">互联网出版许可证：新出网证（沪）字026号</a>
+        <a href="">增值电信业务经营许可证：沪 B2-20100008</a>
+      </p>
+      <p>
+        <a href="">网络文化经营许可证：沪网文（2017）8902-675号</a>
+        <a href="">沪ICP备14052292号-2</a>
+        <a href="">
+          <img src="https://static.web.sdo.com/copyright/pic/beian/beian.png" alt="">
+          沪公网安备 31011502007143号
+        </a>
+      </p>
+      <p>上海数龙科技有限公司 版权所有 021-50504740 浦东新区海趣路58号海趣园1号楼</p>
+    </div>
+
+    <div class="copy_right_priv">
+      <div>
+        <a href=""><img src="https://static.web.sdo.com/copyright/pic/SDG/whjy.png" alt=""></a>
+        <a href=""><img src="https://static.web.sdo.com/copyright/pic/dzyyzz.png" alt=""></a>
+        <a class="priv3" href=""></a>
+      </div>
+      <div>
+        <a href=""><img src="https://static.web.sdo.com/copyright/pic/SDG/report.png" alt=""></a>
+        <a href=""><img src="https://static.web.sdo.com/copyright/pic/SDG/jzjh.png" alt=""></a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="./main.js"></script>
+</body>
+</html>
